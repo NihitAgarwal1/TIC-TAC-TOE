@@ -16,6 +16,7 @@ cells.forEach(cell=>{
         checkForWin();
     });
 });
+resetBtn.addEventListener("click",reset());
 function checkForWin(){
     for(let pattern of Pattern){
          if(cells[pattern[0]].innerText!="" && cells[pattern[1]].innerText!="" && cells[pattern[2]].innerText!=""){
@@ -28,7 +29,7 @@ function checkForWin(){
 }
     }
 }
-resetBtn=()=>{
+function reset(){
     chance=true;
     cells.forEach(cell=>{
         cell.innerText="";
