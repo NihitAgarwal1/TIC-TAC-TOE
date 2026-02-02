@@ -42,8 +42,19 @@ h1 {
     border: none;
     border-radius: 6px;
      transition: transform 0.2s ease, box-shadow 0.2s ease;
+     color:black;
 }
-
+#result{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    padding: 6px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 22px;
+    color: red;
+}
 #reset-button {
     margin-top: 80px;
     background-color: white;
